@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ines Rezki — Master's student in Cultures et Métiers du Web at UGE. Data science, web development, and digital research portfolio.">
+  <title>Ines Rezki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <div class="layout">
+
+    <nav class="sidenav" aria-label="Page sections">
+      <a href="#about" class="nav-btn active" data-label="ABOUT" title="About">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+          <path d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z"/>
+          <path d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z"/>
+        </svg>
+      </a>
+      <a href="#resume" class="nav-btn" data-label="RESUME" title="Resume">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+          <circle cx="12" cy="2" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="22" r="2"/>
+        </svg>
+      </a>
+      <a href="#contact" class="nav-btn" data-label="CONTACT" title="Contact">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+          <path d="M23.954,5.542,15.536,13.96a5.007,5.007,0,0,1-7.072,0L.046,5.542C.032,5.7,0,5.843,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6C24,5.843,23.968,5.7,23.954,5.542Z"/>
+          <path d="M14.122,12.546l9.134-9.135A4.986,4.986,0,0,0,19,1H5A4.986,4.986,0,0,0,.744,3.411l9.134,9.135A3.007,3.007,0,0,0,14.122,12.546Z"/>
+        </svg>
+      </a>
+    </nav>
+
+    <aside class="sidebar">
+      <div class="photo-ring">
+        <img src="images/port.jpg" alt="Ines Rezki" fetchpriority="high" decoding="async">
+      </div>
+      <h1 class="profile-name">Ines <span>Rezki</span></h1>
+      <p class="profile-role"><span class="role-text"></span><span class="blink-cursor">|</span></p>
+
+      <div class="social-row">
+        <a href="#" class="social-link" aria-label="LinkedIn"><img src="images/linklogo.svg" alt="LinkedIn" width="20" height="20"></a>
+        <a href="#" class="social-link" aria-label="GitHub"><img src="images/github.svg" alt="GitHub" width="20" height="20"></a>
+      </div>
+
+      <hr class="divider">
+
+      <ul class="details-list">
+        <li>
+          <span class="detail-label"><i class="bx bx-envelope"></i> Email</span>
+          <a class="detail-value link" href="mailto:inesrezki2003@gmail.com">inesrezki2003@gmail.com</a>
+        </li>
+        <li>
+          <span class="detail-label"><i class="bx bx-map"></i> Location</span>
+          <span class="detail-value">Paris, France</span>
+        </li>
+        <li>
+          <span class="detail-label"><i class="bx bx-briefcase"></i> Status</span>
+          <span class="detail-value"><span class="available-tag">Available</span></span>
+        </li>
+      </ul>
+
+      <a href="ines_rezki_cv.pdf" class="cv-btn" download><i class="bx bx-download"></i> Download CV</a>
+    </aside>
+
+    <main class="main">
+
+      <section id="about" class="pane">
+        <div class="section-title"><h2>About <span>Me</span></h2></div>
+        <p class="bio">
+          Master's student in <strong>Cultures et Métiers du Web</strong> at Université Gustave Eiffel,
+          with a background in sociology and informatics from Sorbonne Université. Passionate about
+          data science, digital humanities, and building thoughtful web experiences.
+        </p>
+
+        <div class="section-title top-gap"><h2>What I <span>Do</span></h2></div>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="bx bx-bar-chart-alt-2"></i>
+            <h3>Data Analysis</h3>
+            <p>Exploring and visualising data with R, Python, and SQL to extract meaningful insights.</p>
+          </div>
+          <div class="service-card">
+            <i class="bx bx-code-curly"></i>
+            <h3>Web Development</h3>
+            <p>Building web experiences with HTML, CSS, JavaScript, PHP, and WordPress.</p>
+          </div>
+          <div class="service-card">
+            <i class="bx bx-search"></i>
+            <h3>Digital Research</h3>
+            <p>Combining sociology and informatics to study digital practices and online communities.</p>
+          </div>
+          <div class="service-card">
+            <i class="bx bx-palette"></i>
+            <h3>UX &amp; Design</h3>
+            <p>Crafting intuitive interfaces with Figma and Canva using a user-centered approach.</p>
+          </div>
+        </div>
+
+        <div class="section-title top-gap"><h2>My <span>Projects</span></h2></div>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-bg" style="background-image: url('https://opengraph.githubassets.com/1/carolapolinario/gwangju'); background-color:#1a0608;">
+              <div class="project-overlay"></div>
+              <h3 class="project-title">Korea Exhibition — UGE</h3>
+            </div>
+            <div class="project-info">
+              <p>Website showcasing a historical Korean exhibition held at Université Gustave Eiffel, extended with a virtual reality experience allowing visitors to continue exploring the exposition online.</p>
+              <a href="https://github.com/carolapolinario/gwangju/blob/main/gwangjuVR-main/expo-vr2.html" class="project-link" target="_blank" rel="noopener" aria-label="View project"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-bg" style="background: linear-gradient(135deg,#051a2e 0%,#0a4a6e 100%);">
+              <div class="project-overlay"></div>
+              <h3 class="project-title">Health in South Korea — Interactive Doc</h3>
+            </div>
+            <div class="project-info">
+              <p>Interactive web experience designed to highlight a documentary exploring health culture and practices in South Korea, turning a linear film into an immersive digital journey.</p>
+              <a href="#" class="project-link" aria-label="View project"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-bg" style="background-image: url('https://drive.google.com/thumbnail?id=10UV6rK0_oaNAI49tjD40D0iUe7gTlcs2&sz=w1280'); background-color:#1a1232;">
+              <div class="project-overlay"></div>
+              <h3 class="project-title">Fan Labor &amp; Digital Labor</h3>
+            </div>
+            <div class="project-info">
+              <p>Master's thesis analyzing how online fan communities produce and organize voluntary digital labor within cultural industries. Graded&nbsp;19/20.</p>
+              <a href="https://drive.google.com/file/d/10UV6rK0_oaNAI49tjD40D0iUe7gTlcs2/view?usp=sharing" class="project-link" target="_blank" rel="noopener" aria-label="Read thesis"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-bg" style="background-image: url('https://opengraph.githubassets.com/1/inesrezki/Rscript'); background-color:#0a1628;">
+              <div class="project-overlay"></div>
+              <h3 class="project-title">Socio-economic Factors in Sport</h3>
+            </div>
+            <div class="project-info">
+              <p>Statistical analysis of gender &amp; socioeconomic influences on sports motivation using INSEE survey data (n&nbsp;&gt;&nbsp;12,000). Logistic &amp; linear regression in&nbsp;R.</p>
+              <a href="https://github.com/inesrezki/Rscript/blob/main/analyse_sport_insee.r" class="project-link" target="_blank" rel="noopener" aria-label="View on GitHub"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-bg" style="background-image: url('https://drive.google.com/thumbnail?id=1qZ6sPTPOpeQ8RhtaYPMVYxG9eVhbO590&sz=w1280'); background-color:#0a1a1a;">
+              <div class="project-overlay"></div>
+              <h3 class="project-title">Academic Success Factors</h3>
+            </div>
+            <div class="project-info">
+              <p>Survey-based analysis identifying sociodemographic predictors of academic success (n&nbsp;=&nbsp;164). Variable engineering, subgroup comparisons, and weighted analysis in&nbsp;R.</p>
+              <a href="https://drive.google.com/file/d/1qZ6sPTPOpeQ8RhtaYPMVYxG9eVhbO590/view?usp=sharing" class="project-link" target="_blank" rel="noopener" aria-label="View report"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="resume" class="pane">
+        <div class="section-title"><h2>Education</h2></div>
+        <div class="timeline">
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <div class="edu-head">
+                <div>
+                  <span class="edu-date">2024 – Present</span>
+                  <h3>Master Cultures et Métiers du Web</h3>
+                  <p class="edu-place">UGE · Champs-sur-Marne</p>
+                </div>
+                <img src="images/uge.png" alt="UGE" class="school-logo" loading="lazy" decoding="async">
+              </div>
+              <p>Specialising in web culture, data, and digital project management.</p>
+              <ul class="edu-bullets">
+                <li>Data analysis, databases (SQL/NoSQL), web technologies</li>
+                <li>Digital sociology, data ethics &amp; digital law</li>
+                <li>Collaborative data projects: collection, processing, interpretation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <div class="edu-head">
+                <div>
+                  <span class="edu-date">2021 – 2024</span>
+                  <h3>Licence Sociologie et Informatique</h3>
+                  <p class="edu-place">Sorbonne Université · Paris</p>
+                </div>
+                <img src="images/sorbonne.png" alt="Sorbonne Université" class="school-logo" loading="lazy" decoding="async">
+              </div>
+              <p>Interdisciplinary degree combining sociology and computer science.</p>
+              <ul class="edu-bullets">
+                <li>Quantitative research &amp; large-scale statistical analysis in R</li>
+                <li>Demography, discrimination studies, cultural sensitivity</li>
+                <li>Data-driven reporting and structured presentation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <div class="edu-head">
+                <div>
+                  <span class="edu-date">2020 – 2021</span>
+                  <h3>International Baccalaureate</h3>
+                  <p class="edu-place">Raha International School · Abu Dhabi</p>
+                </div>
+                <img src="images/raha.jpg" alt="Raha International School" class="school-logo" loading="lazy" decoding="async">
+              </div>
+              <p>Graduated with the IB diploma programme.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title top-gap"><h2>Skills</h2></div>
+
+        <h4 class="skill-group">Coding</h4>
+        <div class="skill-bars">
+          <div class="skill-row">
+            <div class="skill-info"><span>HTML / CSS</span><span>85%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="70"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>PHP</span><span>65%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="65"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>SQL</span><span>87%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="87"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>Python</span><span>50%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="50"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span>R</span><span>75%</span></div>
+            <div class="bar-bg"><div class="bar-fill" data-w="75"></div></div>
+          </div>
+        </div>
+
+        <h4 class="skill-group">Technologies</h4>
+        <div class="tech-grid">
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="55 45"/></svg><span>55%</span></div>
+            <span class="tech-name">MongoDB</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="67 33"/></svg><span>67%</span></div>
+            <span class="tech-name">SQL</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="80 20"/></svg><span>80%</span></div>
+            <span class="tech-name">RStudio</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="75 25"/></svg><span>75%</span></div>
+            <span class="tech-name">Modalisa</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="80 20"/></svg><span>80%</span></div>
+            <span class="tech-name">WordPress</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="47 53"/></svg><span>47%</span></div>
+            <span class="tech-name">Figma</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="90 10"/></svg><span>90%</span></div>
+            <span class="tech-name">Canva</span>
+          </div>
+          <div class="tech-item">
+            <div class="ring-wrap"><svg class="ring-svg" viewBox="0 0 36 36"><circle class="ring-track" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" stroke-dasharray="75 25"/></svg><span>75%</span></div>
+            <span class="tech-name">Notion</span>
+          </div>
+        </div>
+
+        <h4 class="skill-group">Languages</h4>
+        <div class="languages">
+          <div class="language-row">
+            <span class="language-name">English</span>
+            <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></div>
+            <span class="language-level">Native</span>
+          </div>
+          <div class="language-row">
+            <span class="language-name">French</span>
+            <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span></div>
+            <span class="language-level">Fluent</span>
+          </div>
+          <div class="language-row">
+            <span class="language-name">Arabic</span>
+            <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span></div>
+            <span class="language-level">Fluent</span>
+          </div>
+          <div class="language-row">
+            <span class="language-name">Korean</span>
+            <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <span class="language-level">Basic</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="pane">
+        <div class="section-title"><h2>Contact <span>Me</span></h2></div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bx-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:inesrezki2003@gmail.com">inesrezki2003@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bx-map-pin"></i></div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span>Paris, France</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bxl-linkedin"></i></div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">linkedin.com/in/inesrezki</a>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" required autocomplete="name">
+            <input type="email" placeholder="Your Email" required autocomplete="email">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="send-btn"><i class="bx bx-send"></i> Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
